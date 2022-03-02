@@ -1,6 +1,6 @@
 /*
 *	Scavenge Pouring - Unleaded Gas Only
-*	Copyright (C) 2021 Silvers
+*	Copyright (C) 2022 Silvers
 *
 *	This program is free software: you can redistribute it and/or modify
 *	it under the terms of the GNU General Public License as published by
@@ -31,6 +31,10 @@
 
 ========================================================================================
 	Change Log:
+
+1.2a (01-Mar-2022)
+	- Compatibility with "Left4DHooks" plugin version 1.88+ to wildcard the signature for detouring.
+	- GameData file updated only.
 
 1.2 (10-Oct-2021)
 	- Changed the cvar "l4d2_block_gascan_types" default value from "9" to "1".
@@ -354,6 +358,8 @@ public Action OnPlayerRunCmd(int client, int &buttons, int &impulse, float vel[3
 	{
 		buttons &= ~IN_ATTACK;
 	}
+
+	return Plugin_Continue;
 }
 
 public void OnFrame(DataPack dPack)
