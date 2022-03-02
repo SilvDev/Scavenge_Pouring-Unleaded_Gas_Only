@@ -40,8 +40,8 @@
 			{
 				"library"	"server"
 				"linux"		"@_ZN7CGasCan17ShouldStartActionEN17CBaseBackpackItem22BackpackItemActionTypeEP13CTerrorPlayerP11CBaseEntity"
-				"windows"	"\x55\x8B\x2A\x56\x8B\x2A\x2A\x57\x8B\x2A\x85\x2A\x74\x2A\x8B\x2A\xE8\x2A\x2A\x2A\x2A\x84\x2A\x75"
-				/* 55 8B ? 56 8B ? ? 57 8B ? 85 ? 74 ? 8B ? E8 ? ? ? ? 84 ? 75 */
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x2A\x57\x8B\x2A\x85\x2A\x74\x2A\x8B\x2A\xE8\x2A\x2A\x2A\x2A\x84\x2A\x75"
+				/* ? ? ? ? ? ? ? 57 8B ? 85 ? 74 ? 8B ? E8 ? ? ? ? 84 ? 75 */
 				/* Search: "gascan_pour_blocked" */
 			}
 		}
